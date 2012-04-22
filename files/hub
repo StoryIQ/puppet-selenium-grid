@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd $(dirname $0)
+exec java -jar /opt/selenium/grid2/selenium-server-standalone.jar -role hub
