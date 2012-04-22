@@ -15,8 +15,8 @@ In order to add this module, run the following commands in your own Git puppet t
 
 ### Setting up a Hub
 
-Add the following to your Puppet manifest to Download Selenium Grid2, configure it as
- a Service, and starts the hub using the service. Grid2 requires a Java Virtual Machine to be 
+Add the following to your Puppet manifest to setup a Hub. This will Download Selenium Grid2, configure it as
+ a Service, and will start the hub using the installed service. Grid2 requires a Java Virtual Machine to be 
  installed, but this module makes no attempt at installing the Java dependency.
 
 ```class { "selenium_grid::hub":
